@@ -29,7 +29,7 @@ body {
 
 .img-size {
 	display: block;
-	width: 10%;
+	width: 100%;
 }
 
 .title {
@@ -51,6 +51,17 @@ body {
 	background-position: center 5%, center 95%;
 	background-size: 5em, 3em;
 	padding: 1.5em 0 4em;
+	color: #fff;
+}
+
+.info p {
+	text-align: center;
+	line-height: 1em;
+}
+
+.info ul {
+	font-family: serif;
+	line-height: 1.5em;
 }
 
 .reward {
