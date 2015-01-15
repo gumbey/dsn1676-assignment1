@@ -16,3 +16,31 @@ html {
 *, *::before, *::after; {
 	box-sizing: inherit;
 }
+
+body {
+	background-color: #E8E5DA
+}
+
+.masthead {
+	background: transparent url("../images/masthead-bg.png") repeat left center;
+
+	text-align: center;
+}
+
+.title {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 1rem 4rem;
+	background-color: #E8E5DA;
+	background-image: url("../images/logo.svg"), url("../images/logo.svg");
+	background-position: left center, right center;
+	background-repeat: no-repeat;
+	background-size: 64px 64px, 64px 64px
+}
+
+.info {
+	background-color: #87714F
+}
+
+.boarder {
+}
